@@ -1,0 +1,19 @@
+[package]
+name = "tokens"
+version = "0.1.0"
+authors = ["George Kadianakis <desnacked@riseup.net>"]
+edition = "2018"
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "perf"
+harness = false
+
+[dependencies]
+rsa-fdh = "0.5.0"
+rsa = "0.3.0"
+rand = "0.7.3"
+fdh = "0.7.3"
+sha2 = "0.9.3"
